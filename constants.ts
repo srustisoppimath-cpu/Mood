@@ -1,21 +1,23 @@
 
-import type { Mood } from './types';
+import { MoodOption } from './types';
 
-export const MOODS: Mood[] = [
-  { name: 'Happy', emoji: '😄' },
-  { name: 'Sad', emoji: '😢' },
-  { name: 'Energetic', emoji: '⚡️' },
-  { name: 'Calm', emoji: '😌' },
-  { name: 'Romantic', emoji: '🥰' },
-  { name: 'Party', emoji: '🥳' },
-  { name: 'Angry', emoji: '😠' },
-  { name: 'Focused', emoji: '🤔' },
-  { name: 'Relaxed', emoji: '🧘' },
-  { name: 'Hopeful', emoji: '🙏' },
-  { name: 'Silly', emoji: '🤪' },
-  { name: 'Melancholic', emoji: '🌧️' },
-  { name: 'Surprised', emoji: '😮' },
-  { name: 'Anxious', emoji: '😥' },
-  { name: 'Loved', emoji: '❤️' },
-  { name: 'Confident', emoji: '😎' },
+export const MOOD_OPTIONS: MoodOption[] = [
+  { mood: 'Happy', emoji: '😄' },
+  { mood: 'Sad', emoji: '😢' },
+  { mood: 'Energetic', emoji: '⚡️' },
+  { mood: 'Calm', emoji: '😌' },
+  { mood: 'Reflective', emoji: '🤔' },
+  { mood: 'Romantic', emoji: '😍' },
+  { mood: 'Stressed', emoji: '😫' },
+  { mood: 'Party', emoji: '🥳' },
+  { mood: 'Surprised', emoji: '😲' },
+  { mood: 'Angry', emoji: '😠' },
+  { mood: 'Anxious', emoji: '😰' },
+  { mood: 'Loved', emoji: '🥰' },
+  { mood: 'Silly', emoji: '🤪' },
+  { mood: 'Tired', emoji: '😴' },
+  { mood: 'Hopeful', emoji: '🙏' },
+  { mood: 'Proud', emoji: '🥲' },
+  { mood: 'Curious', emoji: '🧐' },
+  { mood: 'Festive', emoji: '🎊' },
 ];

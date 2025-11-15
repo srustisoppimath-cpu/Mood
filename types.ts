@@ -2,25 +2,12 @@
 export interface Song {
   title: string;
   artist: string;
-  language: string;
-  rating?: number;
+  youtubeLink: string;
 }
 
-export interface Mood {
-  name: string;
-  emoji: string;
-}
+export type Mood = 'Happy' | 'Sad' | 'Energetic' | 'Calm' | 'Reflective' | 'Romantic' | 'Stressed' | 'Party' | 'Surprised' | 'Angry' | 'Anxious' | 'Loved' | 'Silly' | 'Tired' | 'Hopeful' | 'Proud' | 'Curious' | 'Festive';
 
-export interface HistoryItem {
-  id: string;
+export interface MoodOption {
   mood: Mood;
-  songs: Song[];
-  timestamp: number;
-}
-
-export enum View {
-  Home,
-  Camera,
-  Results,
-  History,
+  emoji: string;
 }

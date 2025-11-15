@@ -1,6 +1,6 @@
 {
-  "name": "MoodMelody AI",
-  "description": "An AI-powered music recommendation app that suggests songs based on your mood, detected either through your camera or by selecting an emoji. Get personalized playlists across various languages.",
+  "name": "Mood Melody Finder",
+  "description": "An application that analyzes your facial expression or chosen mood to recommend a personalized playlist of songs, including YouTube links.",
   "requestFramePermissions": [
     "camera"
   ]
