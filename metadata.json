@@ -1,0 +1,7 @@
+{
+  "name": "MoodMelody AI",
+  "description": "An AI-powered music recommendation app that suggests songs based on your mood, detected either through your camera or by selecting an emoji. Get personalized playlists across various languages.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
