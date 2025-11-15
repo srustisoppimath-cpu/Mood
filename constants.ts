@@ -1,5 +1,5 @@
 
-import { MoodOption } from './types';
+import { MoodOption } from './types.ts';
 
 export const MOOD_OPTIONS: MoodOption[] = [
   { mood: 'Happy', emoji: '😄' },

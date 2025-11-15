@@ -1,12 +1,12 @@
 
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { CameraView } from './components/CameraView';
-import { MoodSelector } from './components/MoodSelector';
-import { SongList } from './components/SongList';
-import { Loader } from './components/Loader';
-import { getSongsFromGemini } from './services/geminiService';
-import type { Song, Mood } from './types';
+import { Header } from './components/Header.tsx';
+import { CameraView } from './components/CameraView.tsx';
+import { MoodSelector } from './components/MoodSelector.tsx';
+import { SongList } from './components/SongList.tsx';
+import { Loader } from './components/Loader.tsx';
+import { getSongsFromGemini } from './services/geminiService.ts';
+import type { Song, Mood } from './types.ts';
 
 type AppState = 'idle' | 'camera' | 'loading' | 'results' | 'error';
 
